@@ -1,9 +1,10 @@
 #include <stdio.h>
-/*
- * main	-the start of the program
- * */
-int main (void)
+/**
+ * main - The start of the function main
+ * Return: 0
+ */
+int main(void)
 {
-    puts("Programming is like building a multilingual puzzle \n");
-    return 0;
+	puts("\"Programming is like building a multilingual puzzle \n");
+	return (0);
 }
