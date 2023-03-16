@@ -10,9 +10,9 @@ int main(void)
 	long l;
 	float f;
 
-	printf("Size of a char :%lu.\n", (unsigned long)sizeof(a));
-	printf("Size of an int :%lu.\n", (unsigned long)sizeof(b));
-	printf("Size of a long :%lu.\n", (unsigned long)sizeof(l));
-	printf("Size of a float :%lu.\n", (unsigned long)sizeof(f));
+	printf("Size of a char :%c.\n", sizeof(a));
+	printf("Size of an int :%d.\n", sizeof(b));
+	printf("Size of a long :%l.\n", sizeof(l));
+	printf("Size of a float :%f.\n", sizeof(f));
 	return (0);
 }
