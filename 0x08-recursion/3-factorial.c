@@ -2,7 +2,7 @@
 /**
 *factorial - calculate the factorial
 *@n: parameter
-*Return : result
+*Return: factorial of the parameter
 */
 
 int factorial(int n)
