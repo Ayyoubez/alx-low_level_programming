@@ -8,7 +8,7 @@
 *Return: pointer reset
 */
 
-int *_memset(int *s, int e, unsigned int n)
+char *_memset(char *s, char e, unsigned int n)
 {
 	unsigned int i;
 
@@ -25,7 +25,7 @@ int *_memset(int *s, int e, unsigned int n)
 
 void *_calloc(unsigned int nmemb, unsigned int size)
 {
-	int *p;
+	char *p;
 
 	if (nmemb == 0 || size == 0)
 		return (NULL);
