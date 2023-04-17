@@ -1,4 +1,5 @@
 #include "dog.h"
+#include <stdlib.h>
 
 /**
 *init_dog - function to initiliase a nev variable type dog
