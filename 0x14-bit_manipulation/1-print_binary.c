@@ -15,11 +15,11 @@ void print_binary(unsigned long int n)
 		if (tmp & 1)
 		{
 			_putchar('1');
-			tmp++;
+			c++;
 		}
-		else if (tmp)
+		else if (c)
 			_putchar('0');
 	}
-	if (!tmp)
+	if (!c)
 		_putchar('0');
 }
